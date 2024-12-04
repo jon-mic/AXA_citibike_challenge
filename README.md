@@ -20,7 +20,7 @@ This project encompasses two predictive modeling challenges:
 ## Installation
 
 1. Clone this repository: `git clone https://github.com/jon-mic/AXA_citibike_challenge.git`
-2. Install dependencies: `uv install .`
+2. Install dependencies using `uv`(https://docs.astral.sh/uv/): `uv sync`
 
 ## Datasets
 
