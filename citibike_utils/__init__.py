@@ -140,4 +140,4 @@ def evaluate_loc_model(booster, X_test, y_test):
     print(f'Mean Euclidean Distance: {mean_euclidean_distance:.2f} grad')
     print(f'Mean Haversine Distance: {mean_haversine_distance:.2f} m')
     print(f'Maximum Predicted Distance: {np.max(distances):.2f} m')
-    return pd.DataFrame(distances)
+    return pd.DataFrame(distances), pd.DataFrame(preds)

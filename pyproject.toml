@@ -5,7 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "basemap",
     "boto3>=1.35.71",
+    "cartopy>=0.24.1",
     "folium>=0.18.0",
     "geopandas>=1.0.1",
     "holidays>=0.61",
